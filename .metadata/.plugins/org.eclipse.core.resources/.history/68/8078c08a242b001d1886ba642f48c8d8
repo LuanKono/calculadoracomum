@@ -1,0 +1,45 @@
+package trabalho_factory;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		EmpregadoFactory factory = new EmpregadoFactory();
+		
+		int cargo1, cargo2, cargo3, cargo4;
+		String nome1, nome2, nome3, nome4;
+		String email1, email2, email3, email4;
+		int anoContratacao1, anoContratacao2, anoContratacao3, anoContratacao4;
+		
+		cargo1 = 1;
+		nome1 = "Antonio Maciel";
+		email1 = "antonio@gmail.com";
+		anoContratacao1 = 2005;
+		
+		cargo2 = 2;
+		nome2 = "Gilberto Ferreira";
+		email2 = "gilberto@gmail.com";
+		anoContratacao2 = 2002;
+		
+		cargo3 = 3;
+		nome3 = "Carlos Miranda";
+		email3 = "carlos@gmail.com";
+		anoContratacao3 = 2010;
+		
+		cargo4 = 6;
+		nome4 = "Lucas Tadeu";
+		email4 = "lucas@gmail.com";
+		anoContratacao4 = 2014;
+		
+		Empregado emp1 = factory.getEmpregado(cargo1, nome1, email1, anoContratacao1);
+		System.out.println(emp1.toString());
+
+		Empregado emp2 = factory.getEmpregado(cargo2, nome2, email2, anoContratacao2);
+		System.out.println(emp2.toString());
+		
+		Empregado emp3 = factory.getEmpregado(cargo3, nome3, email3, anoContratacao3);
+		System.out.println(emp3.toString());
+		
+		Empregado emp4 = factory.getEmpregado(cargo4, nome4, email4, anoContratacao4);
+		System.out.println(emp4.toString());
+	}
+}

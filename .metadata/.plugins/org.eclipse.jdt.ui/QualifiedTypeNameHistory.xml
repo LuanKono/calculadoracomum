@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="atividades2608.Singleton"/>
+    <fullyQualifiedTypeName name="atividade02.Usuario"/>
+    <fullyQualifiedTypeName name="atividade02.FilaSingleton"/>
+    <fullyQualifiedTypeName name="atividade03.Animal"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="combuilder.PessoaBuilder"/>
+    <fullyQualifiedTypeName name="combuilder.Pessoa"/>
+    <fullyQualifiedTypeName name="combuilder.Telefone"/>
+    <fullyQualifiedTypeName name="trabalho_factory.EmpregadoFactory"/>
+    <fullyQualifiedTypeName name="trabalho_factory.Empregado"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

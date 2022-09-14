@@ -1,0 +1,23 @@
+package trabalho_factory;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		EmpregadoFactory factory = new EmpregadoFactory();
+		
+		int cargo;
+		String nome;
+		String email;
+		int anoContratacao;
+		
+		cargo = 1;
+		nome = "Antonio Maciel";
+		email = "antonio@gmail.com";
+		anoContratacao = 2005;
+		
+		Empregado emp1 = factory.getEmpregado(cargo, nome, email, anoContratacao);
+		System.out.println(emp1.toString());
+		System.out.println(emp1.getClass().getSimpleName());
+		
+	}
+}

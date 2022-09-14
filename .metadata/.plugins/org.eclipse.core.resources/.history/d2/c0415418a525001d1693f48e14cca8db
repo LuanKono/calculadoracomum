@@ -1,0 +1,12 @@
+package atividade03;
+
+public class Dog implements Animal {
+	
+	public void run() {
+		System.out.println("The horse are galloping!");
+	};
+
+	public void sound() {
+		System.out.println("The horse are neighing!");
+	}
+}

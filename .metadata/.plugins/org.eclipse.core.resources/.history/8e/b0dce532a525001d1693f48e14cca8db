@@ -1,0 +1,15 @@
+package atividade03;
+
+public class Main {
+	public static void main(String[] args) {
+		Horse hanoverian = new Horse();
+		hanoverian.run();
+		hanoverian.sound();
+		
+		Dog doberman = new Dog();
+		
+	doberman.run();
+	doberman.sound();
+		
+	}
+}

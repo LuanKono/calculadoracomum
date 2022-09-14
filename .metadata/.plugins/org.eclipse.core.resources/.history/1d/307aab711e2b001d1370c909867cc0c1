@@ -1,0 +1,23 @@
+package combuilder;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		PessoaBuilder pessoaBuilder = new PessoaBuilder();
+		
+		pessoaBuilder.setNome("Marcelo", "Tossati");
+		pessoaBuilder.setDataNascimento(0, 0, 0);
+		pessoaBuilder.setLogradouro(null);
+		pessoaBuilder.setNumero(null);
+		pessoaBuilder.setComplemento(null);
+		pessoaBuilder.setBairro(null);
+		pessoaBuilder.setCidade(null);
+		pessoaBuilder.setPais(null);
+		pessoaBuilder.setFone(null, null);
+		pessoaBuilder.setFone(null, null);
+		
+		Pessoa pessoa = pessoaBuilder.get();
+		System.out.println(pessoa.toString());
+		
+	}
+}

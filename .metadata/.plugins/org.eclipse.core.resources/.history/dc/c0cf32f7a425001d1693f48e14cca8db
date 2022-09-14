@@ -1,0 +1,6 @@
+package atividade03;
+
+public interface Animal {
+	public void gallop();
+	public void neigh();
+}

@@ -1,0 +1,38 @@
+package combuilder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PessoaBuilder {
+
+	private Pessoa pessoa;
+	private Endereco endereco;
+	private List telefones = new ArrayList();
+
+	public PessoaBuilder() {
+		this.pessoa = new Pessoa();
+		this.endereco = new Endereco();
+	}
+	
+	public PessoaBuilder adicionaFone() {
+		
+	}
+	
+	public PessoaBuilder adicionaLogradouro() {
+		
+	}
+	
+	public PessoaBuilder adicionaDataNascimento() {
+		
+	}
+	
+	public PessoaBuilder adicionaNome() {
+		
+	}
+	
+	public Pessoa get() {
+		this.pessoa.setEndereco(this.endereco);
+		this.pessoa.setTelefones(this.telefones);
+		return this.pessoa;
+	}
+}

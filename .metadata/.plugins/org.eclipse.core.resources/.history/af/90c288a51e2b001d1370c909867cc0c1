@@ -1,0 +1,15 @@
+package sembuilder;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		Pessoa pessoa = new Pessoa();
+				
+		pessoa.setAno(null);
+		pessoa.setDia(null);
+		pessoa.setEndereco(null);
+		pessoa.setMes(null);
+		pessoa.setNome(null);
+		pessoa.setSobrenome(null);
+	}
+}

@@ -1,0 +1,43 @@
+package trabalho_factory;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		//01
+		
+		//Empregado antonio =  new Empregado(); ***N�o � possivel instanciar antonio com a classe Empregado, pois a classe Empregado � uma classe abstrata!
+		
+		Gerente antonio = new Gerente("Antonio Silva", "silva@gmail.com", 13450.00f, 2010);
+		
+		//02
+		
+		System.out.println(antonio.toString());
+		System.out.println(antonio.ganha());
+		System.out.println(antonio.tempoCasa());
+		
+		//03
+		
+		PorComissao jose = new PorComissao("Jos� Macedo", "macedo@gmail.com", 2500.00f, 159f, 20, 2002);
+		
+		System.out.println(jose.toString());
+		System.out.println(jose.ganha());
+		System.out.println(jose.tempoCasa());
+		
+		//04
+		
+		PorItem marcos = new PorItem("Marcos Prestes", "prestes@gmail.com", 250.00f, 300, 1999);
+		
+		System.out.println(marcos.toString());
+		System.out.println(marcos.ganha());
+		System.out.println(marcos.tempoCasa());
+		
+		//05
+		
+		PorHora joel = new PorHora("Joel Guimaraes", "joel@gmail.com", 120.00f, 220, 2019);
+		
+		System.out.println(joel.toString());
+		System.out.println(joel.ganha());
+		System.out.println(joel.tempoCasa());
+		
+	}
+}

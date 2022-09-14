@@ -1,0 +1,13 @@
+package atividade03;
+
+public class Horse implements Animal {
+
+	public void gallop() {
+		System.out.println("Galloping");
+	};
+
+	public void neigh() {
+		System.out.println("Neighing");
+	}
+
+}

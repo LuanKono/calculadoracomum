@@ -1,0 +1,14 @@
+package combuilder;
+
+public class Telefone {
+	private Integer ddd;
+	private Integer numero;
+	private String tipoFone;
+	
+	public Telefone(int ddd, int numero, String tipoFone) {
+		this.ddd = ddd;
+		this.numero = numero;
+		this.tipoFone = tipoFone;
+	}
+	
+}

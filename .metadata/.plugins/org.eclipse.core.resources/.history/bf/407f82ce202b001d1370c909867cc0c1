@@ -1,0 +1,26 @@
+package trabalho_factory;
+
+public class EmpregadoFactory {
+	public static Empregado getEmpregado(int cargo, String nome, String email, int anoContratacao) {
+		switch (cargo) {
+		case 1: {
+			return new Gerente();
+			break;
+		}
+		case 2: {
+			
+			break;
+		}
+		case 3: {
+			
+			break;
+		}
+		case 4: {
+			
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Codigo" + cargo + " não existe!");
+		}
+	}
+}

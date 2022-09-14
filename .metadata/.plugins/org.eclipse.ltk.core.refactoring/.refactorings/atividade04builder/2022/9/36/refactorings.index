@@ -1,0 +1,20 @@
+1662158486341	Delete element
+1662159563712	Encapsulate field 'nome'
+1662159570607	Encapsulate field 'sobrenome'
+1662159575936	Encapsulate field 'dia'
+1662159592215	Encapsulate field 'mes'
+1662159598864	Encapsulate field 'ano'
+1662159606062	Encapsulate field 'endereco'
+1662159614587	Encapsulate field 'telefones'
+1662159730285	Encapsulate field 'logradouro'
+1662159744374	Encapsulate field 'numero'
+1662159750570	Encapsulate field 'complemento'
+1662159756232	Encapsulate field 'bairro'
+1662159762057	Encapsulate field 'cidade'
+1662159767355	Encapsulate field 'pais'
+1662159797813	Encapsulate field 'ddd'
+1662159808044	Encapsulate field 'numero'
+1662160363648	Infer generic type arguments
+1662160627055	Copy compilation units
+1662160644000	Copy compilation unit
+1662164614463	Delete element

@@ -1,0 +1,34 @@
+package trabalho_factory;
+
+public class Gerente extends Empregado {
+	
+	protected float salario;
+
+	public Gerente(String nome, String email, float salario, int anoContratacao) {
+		super(nome, email, anoContratacao);
+		this.setSalario(salario);
+	}
+	
+	public Gerente(String nome, String email, int anoContratacao) {
+		super(nome, email, anoContratacao);
+	}
+	
+	public float getSalario() {
+		return salario;
+	}
+
+	public void setSalario(float salario) {
+		this.salario = salario;
+	}
+	
+	public float ganha() {
+		return this.salario;
+	}
+
+	@Override
+	public String toString() {
+		return "Gerente [salario=" + salario + ", nome=" + nome + ", email=" + email + ", anoContratacao="
+				+ anoContratacao + "]";
+	}
+	
+}

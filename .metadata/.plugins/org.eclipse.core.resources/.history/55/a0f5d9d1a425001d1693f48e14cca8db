@@ -1,0 +1,10 @@
+package atividade03;
+
+public class Main {
+	public static void main(String[] args) {
+		Horse hanoverian = new Horse();
+		
+		hanoverian.gallop();
+		hanoverian.neigh();
+	}
+}
