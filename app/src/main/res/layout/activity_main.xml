@@ -7,20 +7,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:gravity="center">
-
-        <TextView
-            android:id="@+id/displayResult"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:paddingRight="3dp"
-            android:textAlignment="textEnd"
-            android:textSize="50sp" />
 
         <TextView
             android:id="@+id/numbersInOperation"
@@ -29,15 +20,26 @@
             android:text=""
             android:paddingRight="3dp"
             android:textAlignment="textEnd"
-            android:textSize="50sp" />
+            android:textSize="35sp"
+            style="@style/Number_Buttons"/>
+
+        <TextView
+            android:id="@+id/displayResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingRight="3dp"
+            android:textAlignment="textEnd"
+            android:textSize="50sp"
+            style="@style/Number_Buttons" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="131dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:gravity="right"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="horizontal">
 
 
         <Switch
@@ -47,7 +49,7 @@
             android:layout_weight="1"
             android:text="aA+"
             android:textAlignment="textEnd"
-            android:textSize="23dp"/>
+            android:textSize="25sp" />
 
         <Switch
             android:id="@+id/switch_darkmode"
@@ -56,7 +58,7 @@
             android:layout_weight="1"
             android:text="Modo escuro/claro"
             android:textAlignment="textEnd"
-            android:textSize="23dp"/>
+            android:textSize="25sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -66,11 +68,11 @@
         android:gravity="center"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/btn_percent"
-            android:text="%"
+            android:id="@+id/btn_clear"
+            android:text="CE"
             style="@style/Operators_Buttons"/>
         <Button
-            android:id="@+id/btn_clear"
+            android:id="@+id/btn_backspace"
             android:text="˂"
             style="@style/Operators_Buttons"/>
 
